@@ -4,6 +4,9 @@ A simple use case for lambda
 ## Encrypt
 Simply takes in two params: the encryption key and the text to be encrypted
 
+### Deploy
+run *npm install* in the *encrypt* directory and then zip up the contents (including *node_modules*) and upload to Lambda function. 
+
 ### Encrypt Test
 
 input 
@@ -28,6 +31,11 @@ output
 
 ## Decrypt
 Simple takes in two params: the decryption key and the text to be decrypted
+
+### Deploy
+run *npm install* in the *decrypt* directory and then zip up the contents (including *node_modules*) and upload to Lambda function. 
+
+### Decrypt Test
 
 input 
 

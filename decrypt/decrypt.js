@@ -8,5 +8,5 @@ exports.handler = function(event, ctx, callback) {
 
     var decrypted = decryptor.decrypt(message);
 
-    callback(null, { statusCode: 200, body: decrypted });
+    callback(null, { statusCode: 200, body: decrypted }); // Responding with status code helps some httpResponse handlers understand the call was successful
 };
