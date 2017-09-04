@@ -1,0 +1,12 @@
+{
+  "name": "aws-lambda-encryptor",
+  "version": "1.0.0",
+  "description": "A simple encryption use case for AWS Lambda",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littletinman/aws-lambda-encrypt-decrypt"
+  },
+  "dependencies": {
+    "simple-encryptor": "^1.1.0"
+  }
+}
